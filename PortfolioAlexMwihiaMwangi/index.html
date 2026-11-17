@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="header" aria-label="Main">
+    <a href="index.html" class="link" aria-current="page"><ion-icon name="home-outline"></ion-icon><span>home</span></a>
+    <a href="about.html" class="link"><ion-icon name="information-circle-outline"></ion-icon><span>about</span></a>
+    <a href="services.html" class="link"><ion-icon name="briefcase-outline"></ion-icon><span>services</span></a>
+    <a href="contact.html" class="link"><ion-icon name="call-outline"></ion-icon><span>contacts</span></a>
+    </nav>
+  <div class="page">
+    <main>
+      <div class="hero">
+        <img src="./assets/pic.jpg" alt="Profile Picture" class="picture" />
+        <span id="welcome"></span>
+      </div>
+      <div class="cards-container">
+        <div class="card">
+            <h1>I am Alex Mwangi Mwihia</h1>
+            <p>
+                Passionate about technology and innovation, I am a developer crafting solutions that blend creativity with functionality.
+                Explore my projects, skills, and services that showcase my expertise in web and mobile development.
+            </p>
+            <p class="italic">
+                Let's build something amazing together!
+            </p>
+        </div>
+        <div class="card">
+            <h2>My Expertise</h2>
+            <ul class="skills-list">
+                <li>IT support</li>
+                <li>Web Development</li>
+                <li>Artificial Intelligence</li>
+                <li>Internet of Things (IoT)</li>
+                <li>Network Engineering</li>
+                <li>Database Administration</li>
+                <li>Cybersecurity</li>
+            </ul>
+        </div>
+      </div>
+    </main>
+    <div class="quotes-container">
+        <span id="quote"></span>
+        <span id="author"></span>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
